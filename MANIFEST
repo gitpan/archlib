@@ -1,0 +1,10 @@
+Build.PL
+lib/archlib.pm
+MANIFEST			This list of files
+t/archlib.t
+t/archlib_tar_bz2.t
+t/archlib_tar_gz.t
+t/inc/ArchLibTest.pm
+README
+META.yml
+META.json

@@ -1,0 +1,27 @@
+---
+abstract: 'Add tar archive to @INC path'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: archlib
+provides:
+  archlib:
+    file: lib/archlib.pm
+    version: 0.001
+requires:
+  Archive::Tar: 0
+  Carp: 0
+  Test::Simple: 0.88
+resources:
+  bugtracker: http://github.com/exodist/archlib/issues
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/exodist/archlib
+version: 0.001
