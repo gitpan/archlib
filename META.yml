@@ -15,7 +15,7 @@ name: archlib
 provides:
   archlib:
     file: lib/archlib.pm
-    version: 0.001
+    version: 0.002
 requires:
   Archive::Tar: 0
   Carp: 0
@@ -24,4 +24,4 @@ resources:
   bugtracker: http://github.com/exodist/archlib/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/exodist/archlib
-version: 0.001
+version: 0.002
